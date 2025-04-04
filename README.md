@@ -1,0 +1,1 @@
+I am observing the same issue: if I display the same content both inside a ModalBottomSheet and a BottomSheetScaffold within an Activity that calls the enableEdgeToEdge() extension function the former will apply the insets as expected whereas the latter will not and the content will overlap the system's bottom/navigation bar.
